@@ -1,0 +1,17 @@
+//Kyle Luster
+//This is my own work
+//In class exercise 1/8/2020
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double pounds;
+  cout << "Enter a weight in pounds: ";
+  cin >> pounds;
+  double kilograms = pounds * 0.454;
+  cout << "The weight in kilograms is: "<<kilograms;
+
+    return 0;
+}
