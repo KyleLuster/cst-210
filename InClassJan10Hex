@@ -1,0 +1,18 @@
+//Kyle Luster
+//This is my own work
+//In class exercise 1/10/2020
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double side;
+    cout << "Please enter the side length of a hexagon in inches: ";
+    cin >> side;
+    double area = (side*side)* 3 * sqrt(3)*0.5;
+    cout << "The area of your hexagon is: "<<area << endl;
+
+    return 0;
+}
